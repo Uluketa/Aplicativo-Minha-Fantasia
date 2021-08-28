@@ -1,0 +1,191 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#CDDC39"
+    android:theme="@style/Widget.Support.CoordinatorLayout"
+    tools:context=".produtos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDFCFD"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:background="#FF0000"
+            android:backgroundTint="#FFFFFF"
+            android:text="PRODUTOS - FANTASIAS"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="dp"
+            tools:layout_editor_absoluteY="337dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/homem2"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="337dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="5dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="170dp"
+                android:layout_height="67dp"
+                android:backgroundTint="#BE6BCC"
+                android:shadowColor="#FFEB3B"
+                android:text="FANTASIA HOMEM ARANHA"
+                android:textAlignment="center"
+                app:iconTint="#FFEB3B"
+                app:rippleColor="#FF0000"
+                app:strokeColor="#2196F3"
+                tools:layout_editor_absoluteX="23dp"
+                tools:layout_editor_absoluteY="356dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="#DACFED"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="dp"
+            tools:layout_editor_absoluteY="160dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/img"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="5dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#BE6BCC"
+                android:text="FANTASIA ELSA FROZEN"
+                android:textAlignment="center"
+                app:rippleColor="#008EFF"
+                tools:layout_editor_absoluteX="214dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="dp"
+            tools:layout_editor_absoluteY="507dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="#3F1E45"
+                app:srcCompat="@drawable/jasmin1"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="520dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="5dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="dp"
+                tools:layout_editor_absoluteY="507dp">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BE6BCC"
+                    android:text="FANTASIA JASMINE DISNEY"
+                    android:textAlignment="center"
+                    app:rippleColor="#FFEB3B"
+                    tools:layout_editor_absoluteX="214dp"
+                    tools:layout_editor_absoluteY="520dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="        (work in progress)"
+                    android:textAlignment="viewStart"
+                    android:textColor="#2196F3" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1196A6"
+            android:text="Voltar"
+            app:rippleColor="#FF5722" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

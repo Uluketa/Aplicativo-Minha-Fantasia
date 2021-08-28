@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quemsomos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1e1916"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:touchscreenBlocksFocus="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-54dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="QUEM SOMOS?"
+            android:textColor="#C6B1EC"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="360dp"
+            android:layout_height="111dp"
+            android:text="A MINHA FANTASIA é uma loja de fantasias e acessórios desde 2021 que nasceu com o intuito de proporcionar encantamento ao dia a dia das pessoas, gerando experiências inesquecíveis através de produtos e atendimento."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="359dp"
+            android:layout_height="92dp"
+            android:text="Esse conceito veio com a missão de resgatar o universo da alegria e do prazer de brincar, criando um elo com o mundo mágico da fantasia."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/logo1" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="359dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:text="Voltar
+"
+            app:rippleColor="#FF9800" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
